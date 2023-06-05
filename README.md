@@ -6,4 +6,6 @@
   - commitlint
   - eslint
   - stylelint
+  - lint-staged
 - prettier
+- commitizen
