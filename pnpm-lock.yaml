@@ -11,6 +11,7 @@ specifiers:
   eslint-plugin-promise: ^6.0.0
   husky: ^8.0.0
   lint-staged: ^13.2.2
+  prettier: 2.8.8
   stylelint: ^15.6.3
   stylelint-config-prettier: ^9.0.5
   stylelint-less: ^1.0.6
@@ -27,6 +28,7 @@ devDependencies:
   eslint-plugin-promise: 6.1.1_eslint@8.42.0
   husky: 8.0.3
   lint-staged: 13.2.2
+  prettier: 2.8.8
   stylelint: 15.6.3
   stylelint-config-prettier: 9.0.5_stylelint@15.6.3
   stylelint-less: 1.0.6_stylelint@15.6.3
@@ -2535,6 +2537,12 @@ packages:
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier/2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /punycode/2.3.0:
