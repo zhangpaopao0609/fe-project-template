@@ -38,10 +38,12 @@
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
       "prettier --write",
-      "npm run lint:fix"
+      "npm run lint:fix",
+      "git add ."
     ],
     "*.{html,vue,vss,sass,less}": [
-      "npm run stylelint:fix"
+      "npm run stylelint:fix",
+      "git add ."
     ]
   },
   "config": {
