@@ -9,3 +9,4 @@
   - lint-staged
 - prettier
 - commitizen
+  
